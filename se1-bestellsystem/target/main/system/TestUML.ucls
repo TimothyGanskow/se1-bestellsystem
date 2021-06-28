@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="system.Components.OrderProcessor" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/Components.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="981" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="system.OutputProcessor" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/OutputProcessor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="817" y="618"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="system.DataFactory" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/DataFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1265" y="454"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="system.ComponentFactory" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/ComponentFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="815" y="182"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="system.Components.OutputProcessor" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/Components.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="704" y="1618"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="system.Components" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/Components.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1022" y="1432"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="system.Components.InventoryManager" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/Components.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1292" y="1648"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="system.Components.DataFactory" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/Components.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1675" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="system.InventoryManager" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/InventoryManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1269" y="1206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="system.OrderProcessor" project="se1-bestellsystem" 
+    file="/se1-bestellsystem/src/system/OrderProcessor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="797" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="11">    
+    <bendpoint x="785" y="1058"/>    
+    <bendpoint x="785" y="1394"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <nesting id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <association id="13">    
+    <bendpoint x="983" y="842"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="14" name="inventoryManager"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="16">    
+    <bendpoint x="1082" y="566"/>    
+    <bendpoint x="1071" y="842"/>    
+    <bendpoint x="1060" y="1058"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="610" y="330"/>    
+    <bendpoint x="610" y="566"/>    
+    <bendpoint x="610" y="842"/>    
+    <bendpoint x="631" y="1058"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="19">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="20" name="instance"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="22">    
+    <bendpoint x="631" y="842"/>    
+    <bendpoint x="610" y="1058"/>    
+    <bendpoint x="610" y="1394"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="23">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="24" name="inventoryManager"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="26">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="27">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <dependency id="28">    
+    <bendpoint x="568" y="330"/>    
+    <bendpoint x="568" y="566"/>    
+    <bendpoint x="568" y="842"/>    
+    <bendpoint x="568" y="1058"/>    
+    <bendpoint x="568" y="1394"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <nesting id="29">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <association id="30">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="31" name="dataFactory"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="34" name="orderProcessor"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="36">    
+    <bendpoint x="589" y="330"/>    
+    <bendpoint x="589" y="566"/>    
+    <bendpoint x="589" y="842"/>    
+    <bendpoint x="589" y="1058"/>    
+    <bendpoint x="631" y="1394"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="37">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="outputProcessor"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <bendpoint x="671" y="330"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="41" name="outputProcessor"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <bendpoint x="1103" y="566"/>    
+    <bendpoint x="1103" y="842"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="44" name="inventoryManager"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <bendpoint x="1456" y="330"/>    
+    <bendpoint x="1456" y="566"/>    
+    <bendpoint x="1456" y="842"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="47" name="inventoryManager"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="49">    
+    <bendpoint x="1519" y="330"/>    
+    <bendpoint x="1519" y="566"/>    
+    <bendpoint x="1519" y="842"/>    
+    <bendpoint x="1519" y="1058"/>    
+    <bendpoint x="1519" y="1394"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <realization id="50">    
+    <bendpoint x="1435" y="566"/>    
+    <bendpoint x="1477" y="842"/>    
+    <bendpoint x="1477" y="1058"/>    
+    <bendpoint x="1477" y="1394"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="51">    
+    <bendpoint x="631" y="330"/>    
+    <bendpoint x="631" y="566"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="52" name="orderProcessor"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="54">    
+    <bendpoint x="1498" y="330"/>    
+    <bendpoint x="1498" y="566"/>    
+    <bendpoint x="1498" y="842"/>    
+    <bendpoint x="1498" y="1058"/>    
+    <bendpoint x="1456" y="1394"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="55">    
+    <bendpoint x="962" y="842"/>    
+    <bendpoint x="962" y="1058"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="56">    
+    <bendpoint x="1123" y="1394"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <dependency id="57">    
+    <bendpoint x="816" y="1058"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
