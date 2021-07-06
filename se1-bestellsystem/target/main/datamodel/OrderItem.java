@@ -12,7 +12,11 @@ public class OrderItem {
 	}
 
 	public String getDescription() {
-		return description;
+		if (this.description != null) {
+			return description;
+		} else {
+			return "";
+		}
 	}
 
 	public void setDescription(String description) {
@@ -24,7 +28,11 @@ public class OrderItem {
 	}
 
 	public int getUnitsOrdered() {
-		return unitsOrdered;
+		if (this.unitsOrdered >= 0) {
+			return unitsOrdered;
+		} else {
+			return 0;
+		}
 	}
 
 	public void setUnitsOrdered(int unitsOrdered) {

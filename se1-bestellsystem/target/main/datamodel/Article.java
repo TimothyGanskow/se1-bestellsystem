@@ -19,7 +19,11 @@ public class Article {
 	}
 
 	public String getDescription() {
-		return description;
+		if (this.description != null) {
+			return description;
+		} else {
+			return "";
+		}
 	}
 
 	public void setDescription(String description) {
@@ -27,24 +31,39 @@ public class Article {
 	}
 
 	public long getUnitPrice() {
-		return unitPrice;
+		if (this.unitPrice >= 0) {
+			return unitPrice;
+		} else {
+			return 0;
+		}
 	}
 
 	public void setUnitPrice(long unitPrice) {
-		this.unitPrice = unitPrice;
+		if (unitPrice < Long.MAX_VALUE && unitPrice > Long.MIN_VALUE) {
+			this.unitPrice = unitPrice;
+		} else {
+			this.unitPrice = 0;
+		}
 	}
 
 	public int getUnitsInStore() {
-		return unitsInStore;
+		if (this.unitsInStore >= 0) {
+			return unitsInStore;
+		} else {
+			return 0;
+		}
 	}
 
 	public void setUnitsInStore(int unitsInStore) {
-		this.unitsInStore = unitsInStore;
+		if (unitsInStore < Integer.MAX_VALUE && unitsInStore > Integer.MIN_VALUE) {
+			this.unitsInStore = unitsInStore;
+		} else {
+			this.unitsInStore = 0;
+		}
 	}
 
 	public long getValue() {
-		long value = getUnitPrice()*getUnitsInStore();
+		long value = getUnitPrice() * getUnitsInStore();
 		return value;
-		}
+	}
 }
-

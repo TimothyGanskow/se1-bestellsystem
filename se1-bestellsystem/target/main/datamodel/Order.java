@@ -1,5 +1,6 @@
 package datamodel;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -21,7 +22,11 @@ public class Order {
 	}
 
 	public Date getDate() {
+		if (this.date != null) {
 		return date;
+		} else {
+			return new Date();
+		}
 	}
 
 	public Customer getCustomer() {
@@ -32,10 +37,11 @@ public class Order {
 		return items;
 	}
 
-
-
 	public Order addItem(OrderItem o) {
+		if (!this.items.contains(o)) {
+		if(o != null) {
 		items.add(o);
+		}}
 		return new Order(this.id, this.date, this.customer);
 	}
 
@@ -48,5 +54,12 @@ public class Order {
 		items.removeAll(items);
 		return new Order(this.id, this.date, this.customer);
 	}
+
+	public Object count() {
+		//clearItems();
+		return items.size();
+	}
+
+
 
 }
